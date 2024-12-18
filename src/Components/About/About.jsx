@@ -13,7 +13,7 @@ export default function About() {
       <div className="mb-16">
         <h2 className="text-4xl font-bold text-center mb-8">Skills</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
-          {['HTML', 'CSS', 'JavaScript', 'React.js', 'Redux', 'Tailwind', 'Bootstrap', 'Git', 'C++', 'DSA', 'OOPs', 'Communication'].map((skill) => (
+          {['HTML', 'CSS', 'JavaScript', 'React.js', 'Redux', 'Tailwind', 'Bootstrap', 'Git', 'C++', 'DSA', 'OOPs', 'Communication','Node.js','MongoDB','Express.js'].map((skill) => (
             <div key={skill} className="p-4 bg-gray-800 rounded-lg shadow-lg flex items-center justify-center hover:bg-gray-700 transform hover:scale-105 transition">
               <span className="text-xl font-semibold">{skill}</span>
             </div>
@@ -33,6 +33,7 @@ export default function About() {
                 'Developed and maintained responsive web applications using React.',
                 'Utilized HTML, CSS, Bootstrap, and Tailwind to create layouts.',
                 'Managed state using Redux for performance optimization.',
+                'Integrated MongoDB, Express.js, and Node.js for backend development, creating robust and scalable APIs.',
                 'Collaborated in an Agile environment for sprint planning and reviews.',
               ],
             },
