@@ -1,6 +1,6 @@
 import React from 'react';
 import image from '../../assets/kunal.png';
-import cv from '../../assets/kunalresume.pdf';
+import cv from '../../assets/KUNAL-resume.pdf';
 
 export default function Home() {
   return (
