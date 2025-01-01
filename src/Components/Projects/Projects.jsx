@@ -36,6 +36,13 @@ export default function Projects() {
       description: 'A project management tool to organize tasks and track progress.',
       image: task,
       link: 'https://react-app-task-eight.vercel.app/'
+    },
+    //update-1-1-25
+    {
+      title: 'Blog Managment app',
+      description: 'Developed a Blog management application that allows users to create, update, and delete images and tasks.',
+      image: blog,
+      link: 'https://blog-manager-fullstack.onrender.com'
     }
   ];
   
