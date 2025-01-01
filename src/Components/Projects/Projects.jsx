@@ -4,6 +4,7 @@ import youtube from '../../assets/you.png'
 import horo from '../../assets/horo.png'
 import curr from '../../assets/curr.png'
 import ecco from '../../assets/ecco.png'
+import blog from '..//../assets/blog.png'
 
 export default function Projects() {
   const projects = [
