@@ -145,15 +145,15 @@ export default function About() {
             //     'Built responsive UIs with Tailwind CSS for various clients.',
             //   ],
             // },
-            // {
-            //   title: 'Web Developer Trainee',
-            //   date: '10/04/2021 - 19/06/2021',
-            //   company: 'Internshala',
-            //   tasks: [
-            //     'Completed a 2-month training in Web Development.',
-            //     'Specialized in HTML, CSS, JavaScript and Bootstrap for responsive websites.',
-            //   ],
-            // },
+            {
+              title: 'Web Developer Trainee',
+              date: '10/04/2021 - 19/06/2021',
+              company: 'Internshala',
+              tasks: [
+                'Completed a 2-month training in Web Development.',
+                'Specialized in HTML, CSS, JavaScript and Bootstrap for responsive websites.',
+              ],
+            },
           ].map((exp, index) => (
             <div key={index} className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition">
               <h3 className="text-2xl font-semibold mb-2">{exp.title}</h3>
