@@ -3,22 +3,35 @@ import task from '../../assets/task.png'
 import youtube from '../../assets/you.png'
 import horo from '../../assets/horo.png'
 import curr from '../../assets/curr.png'
-import ecco from '../../assets/ecco.png'
-import blog from '..//../assets/blog.png'
+import ecco from '../../assets/ecoo.png'
+import blog from '../../assets/blog.png'
+import trello from '../../assets/trello.png'
 
 export default function Projects() {
   const projects = [
+    {
+      title: 'Trello Clone',
+      description: 'Developed a full-stack web application replicating the core functionality of Trello, a project management tool.',
+      image: trello,
+      link: 'https://trello-like-app.onrender.com/'
+    },
+    {
+      title: 'E-commerce Website',
+      description: 'Designed and built a full-stack e-commerce platform featuring product listings, a shopping cart, secure checkout process, and user authentication.',
+      image: ecco,
+      link: 'https://chi-commerce.onrender.com/'
+    },
+    {
+      title: 'Blog Managment app',
+      description: 'Developed a Blog management application that allows users to create, update, and delete images and tasks.',
+      image: blog,
+      link: 'https://blog-manager-fullstack.onrender.com'
+    },
     {
       title: 'YouTube Clone',
       description: 'A YouTube-like platform for browsing and watching videos.',
       image: youtube,
       link: 'https://youtube-clone-phi-beryl.vercel.app/'
-    },
-    {
-      title: 'E-commerce Site',
-      description: 'An online shopping platform with product browsing, cart, and checkout features.',
-      image: ecco,
-      link: 'https://react-ecommerce-web-hazel.vercel.app/'
     },
     {
       title: 'Horoscope App',
@@ -38,19 +51,7 @@ export default function Projects() {
       image: task,
       link: 'https://react-app-task-eight.vercel.app/'
     },
-    //update-1-1-25
-    {
-      title: 'Blog Managment app',
-      description: 'Developed a Blog management application that allows users to create, update, and delete images and tasks.',
-      image: blog,
-      link: 'https://blog-manager-fullstack.onrender.com'
-    },
-    {
-      title: 'E-commerce Website',
-      description: ' Designed and built a full-stack e-commerce platform featuring product listings, a shopping cart, secure checkout process, and user authentication.',
-      image: ecom,
-      link: 'https://chi-commerce.onrender.com/'
-    }
+    
   ];
   
   return (
