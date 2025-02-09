@@ -44,6 +44,12 @@ export default function Projects() {
       description: 'Developed a Blog management application that allows users to create, update, and delete images and tasks.',
       image: blog,
       link: 'https://blog-manager-fullstack.onrender.com'
+    },
+    {
+      title: 'E-commerce Website',
+      description: ' Designed and built a full-stack e-commerce platform featuring product listings, a shopping cart, secure checkout process, and user authentication.',
+      image: ecom,
+      link: 'https://chi-commerce.onrender.com/'
     }
   ];
   
